@@ -1,0 +1,17 @@
+.sidebarLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidebarLink.active {
+    background-color: #000;
+    color: #fff;
+  }
+  
